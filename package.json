@@ -1,0 +1,23 @@
+{
+  "name": "jakubsthings",
+  "version": "1.0.0",
+  "description": "Its a portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesqero-lab/JakubsThings.git"
+  },
+  "author": "Lesqero Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lesqero-lab/JakubsThings/issues"
+  },
+  "homepage": "https://github.com/lesqero-lab/JakubsThings#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "bootstrap": "^5.3.3"
+  }
+}
