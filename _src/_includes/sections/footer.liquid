@@ -1,8 +1,0 @@
-<footer>
-This page is also available in:
-{% assign links = page.url | locale_links %}
-{%- for link in links %}
-{%- unless forloop.first %},{% endunless %}
-<a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
-{%- endfor -%}
-</footer>
