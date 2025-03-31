@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+        <link rel="stylesheet" href="/index.044e704e.css">
+
+        <!-- Add this in the <head> section of your HTML file -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+            <!-- Main container -->
+            <div id="main-container" role="document">
+                <main role="main">
+                        <link rel="stylesheet" href="/en/posts/2ndpost/index.2f29696a.css">
+<title>Mutant Variety Database</title>
+<div class="container mt-4 w-100" align="center">
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide w-100" data-bs-ride="carousel" style="max-width: 1000px">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/Cover.3e419c02.png" alt="Italian Trulli" class="img-fluid">
+        </div>
+        
+            <div class="carousel-item">
+                <img src="/2.58a5e19c.jpg" alt="Image 1" class="img-fluid">
+              </div>
+
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Thumbnail Row -->
+    <div class="row mt-3 thumbnail-row">
+        <div class="col">
+            <img src="/Cover.3e419c02.png" class="img-fluid thumbnail active" data-bs-target="#carouselExample" data-bs-slide-to="0" alt="Thumbnail 1">
+        </div>
+        
+
+            <div class="col">
+                <img src="/2.58a5e19c.jpg" class="img-fluid thumbnail" data-bs-target="#carouselExample" data-bs-slide-to="1" alt="Thumbnail 2">
+              </div>
+        
+    </div>
+  </div>
+
+
+    
+
+  <script>document.addEventListener('DOMContentLoaded', ()=>{
+    const carouselElement = document.querySelector('#carouselExample');
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    // Update thumbnail active state on slide
+    carouselElement.addEventListener('slide.bs.carousel', (event)=>{
+        thumbnails.forEach((thumbnail)=>thumbnail.classList.remove('active'));
+        thumbnails[event.to].classList.add('active');
+    });
+    // Add click event to thumbnails
+    thumbnails.forEach((thumbnail)=>{
+        thumbnail.addEventListener('click', ()=>{
+            thumbnails.forEach((thumb)=>thumb.classList.remove('active'));
+            thumbnail.classList.add('active');
+        });
+    });
+});
+
+</script>
+<div class="container mt-4 p-2 w-100">
+    <h1><strong>Mutant Variety Database</strong></h1>
+    <p>and we can add text in markdown</p>
+
+</div>
+  
+                </main>
+            </div>
+
+            <script src="/index.18dbc454.js" defer=""></script>
+    </body>
+</html>

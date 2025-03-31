@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
         <link rel="stylesheet" href="/index.044e704e.css">
+
+        <!-- Add this in the <head> section of your HTML file -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
     </head>
     <body>
 
@@ -13,97 +17,164 @@
                 <main role="main">
                         <title>Jakub Chrenko, Portfolio</title>
     <link rel="stylesheet" href="/en/index.cc65b531.css">
-<div class="container-fluid pb-3 h-100 min-vh-100" style="background-image: linear-gradient(#fff1eb, #ace0f9d9)">
-    <div class="row flex-grow-sm-1 flex-grow-0">
-        <!-- side bar for mobile -->
-        <div class="d-block d-sm-none">
-            <a class="btn fixed-bottom" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
-                About me
-              </a>
-              
-              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasExampleLabel"><strong>Jakub Chrenko</strong></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div class="p-1 h-100 sticky-top">
-                        <ul class="list-unstyled">
-                            <li>
-                                <h6>Graphic Designer</h6>
-                            </li>
-                            <li class="mt-5">
-                                <i class="bi bi-envelope d-inline"></i><p class="d-inline">     jakubsid@gmail.com</p>
-                            </li>       
-                            <li>
-                                <i class="bi bi-instagram d-inline"></i><p class="d-inline">    Instagram handle</p>
-                            </li>
-                            <li class="mt-3">
-                                <p>Hello i am jakub and i do some cool and pretty things, and here you can check them out, i studied at this cool school and ive been focusing on this type of projects and these are my favourite mediums, wow such interesting things. These are the people who i work with wow, crazy</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-              </div>
-        </div>
+<div class="container-fluid p-0 h-100 min-vh-100">
 
-        <!-- Side bar for wide screen -->
-        <aside class="col-sm-3 sticky-top pb-3 d-none d-sm-block">
-            <div class="p-1 h-100 sticky-top">
-                <ul class="list-unstyled">
-                    <li>
-                        <h2><strong>Jakub Chrenko</strong></h2>
-                    </li>
-                    <li>
-                        <h6>Graphic Designer</h6>
-                    </li>
-                    <li>
-                        <img src="/portfolio.606af17d.png" class="mx-auto d-block w-75">
-                    </li>
-                    <li class="mt-5">
-                        <i class="bi bi-envelope d-inline"></i><p class="d-inline">jakubsid@gmail.com</p>
-                    </li>       
-                    <li>
-                        <i class="bi bi-instagram d-inline"></i><p class="d-inline">    Instagram handle</p>
-                    </li>
-                    <li class="mt-3">
-                        <p>Hello i am jakub and i do some cool and pretty things, and here you can check them out, i studied at this cool school and ive been focusing on this type of projects and these are my favourite mediums, wow such interesting things. These are the people who i work with wow, crazy</p>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+
         <!-- main content -->
+            <div class="col container-fluid h-100 p-0 d-flex flex-column">
+                <div id="animationCanvas" class="container-fluid p-0 vh-100 w-100">
 
-        <main class="col overflow-auto h-100 w-100 p-0">
-            <div class="container bg-light w-100">
-                <h1 class="text-center"><strong>Jakub Chrenko, Portfolio</strong></h1>
-                <p></p><div class="row"><div class="col-auto container mt-5" style="width: 100%; max-width: 500px">
+                    <div class="container-fluid ">
+                        <h1 class="text-center text-light" id="ContentHeader"><strong>Jakub Chrenko, Portfolio</strong></h1>
+                    </div>
+
+                    <div class="container-fluid">
+                        <nav class="navbar navbar-expand-lg" id="navbar">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link text-light disabled" aria-disabled="true">Disabled</a>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <ul id="bio-box" class="list-unstyled animationObject w-25 text-light" style="max-width: 350px">
+                        <li>
+                            <h2><strong>Jakub Chrenko</strong></h2>
+                        </li>
+                        <li>
+                            <h6>Graphic Designer</h6>
+                        </li>
+                        <li>
+                            <img src="/portfolio.606af17d.png" style="min-width: 150px; max-width: 200px" class="mx-auto d-block">
+                        </li>
+                        <li class="mt-5">
+                            <i class="bi bi-envelope d-inline"></i><p class="d-inline"> jakubsid@gmail.com</p>
+                        </li>       
+                        <li>
+                            <i class="bi bi-instagram d-inline"></i><p class="d-inline">    Instagram handle</p>
+                        </li>
+                        <li class="mt-3">
+                            <p>Hello i am jakub and i do some cool and pretty things, and here you can check them out, i studied at this cool school and ive been focusing on this type of projects and these are my favourite mediums, wow such interesting things. These are the people who i work with wow, crazy</p>
+                        </li>
+                    </ul>
+
+
+                    <div class="container post-container p-0 m-0 animationObject" data-width="200" data-height="133" data-postnum="002">
     <div class="image-overlay">
-      <img src="/Cover.0f998554.jpg" class="img-fluid">
+      <img src="/Cover.628fe43b.jpg" class="img-fluid object-fit-contain"> 
       <div class="overlay-effect"></div>
-      <div class="overlay-text"><h1><strong><a href="/en/posts/testPost/">Hello! This is a test post</a></strong></h1></div>
-    </div>
-    </div><div class="col-auto container mt-5" style="width: 100%; max-width: 500px">
-    <div class="image-overlay">
-      <img src="/Cover.628fe43b.jpg" class="img-fluid">
-      <div class="overlay-effect"></div>
-      <div class="overlay-text"><h1><strong><a href="/en/posts/2ndpost/">wow, there can be more than one</a></strong></h1></div>
-    </div>
-    </div><div class="col-auto container mt-5" style="width: 100%; max-width: 500px">
-    <div class="image-overlay">
-      <img src="/Cover.9395969a.jpg" class="img-fluid">
-      <div class="overlay-effect"></div>
-      <div class="overlay-text"><h1><strong><a href="/en/posts/3rdpost/">post numero 3</a></strong></h1></div>
-    </div>
-    </div></div>
-<p></p>
+        <!-- Modal -->
+        <div class="modal fade" id="Modal002" tabindex="-1" aria-labelledby="Modal002Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="Modal002Label">wow, there can be more than one</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
             </div>
-        </main>
-    </div>
+          </div>
+        </div>
+<p><!--<div class="overlay-text"><h1><strong><a href=/en/posts/2ndpost/></a></strong></h1></div>-->
+</p></div>
+</div><div class="container post-container p-0 m-0 animationObject" data-width="200" data-height="133" data-postnum="003">
+<div class="image-overlay">
+<img src="/Cover.9395969a.jpg" class="img-fluid object-fit-contain">
+<div class="overlay-effect"></div>
+<!-- Modal -->
+<div class="modal fade" id="Modal003" tabindex="-1" aria-labelledby="Modal003Label" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" id="Modal003Label">post numero 3</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary">Save changes</button>
+</div>
+</div>
+</div>
+</div><p></p>
+<p><!--<div class="overlay-text"><h1><strong><a href=/en/posts/3rdpost/></a></strong></h1></div>-->
+</p></div>
+</div><div class="container post-container p-0 m-0 animationObject" data-width="200" data-height="133" data-postnum="001">
+<div class="image-overlay">
+<img src="/Cover.0f998554.jpg" class="img-fluid object-fit-contain">
+<div class="overlay-effect"></div>
+<!-- Modal -->
+<div class="modal fade" id="Modal001" tabindex="-1" aria-labelledby="Modal001Label" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" id="Modal001Label">Hello! This is a test post</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary">Save changes</button>
+</div>
+</div>
+</div>
+</div><p></p>
+<p><!--<div class="overlay-text"><h1><strong><a href=/en/posts/testPost/></a></strong></h1></div>-->
+</p></div>
+</div><div class="container post-container p-0 m-0 animationObject" data-width="300" data-height="329" data-postnum="004">
+<div class="image-overlay">
+<img src="/Cover.3e419c02.png" class="img-fluid object-fit-contain">
+<div class="overlay-effect"></div>
+<!-- Modal -->
+<div class="modal fade" id="Modal004" tabindex="-1" aria-labelledby="Modal004Label" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h1 class="modal-title fs-5" id="Modal004Label">Mutant Variety Database</h1>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary">Save changes</button>
+</div>
+</div>
+</div>
+</div><p></p>
+<p><!--<div class="overlay-text"><h1><strong><a href=/en/posts/MutantVarietyDatabase/></a></strong></h1></div>-->
+</p></div>
+</div><p></p>
+
+                </div>
+            </div>
 </div>
 
-
-    
+<script src="/en/index.f77a66f4.js" defer=""></script>
                 </main>
             </div>
 

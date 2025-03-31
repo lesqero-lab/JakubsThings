@@ -1,0 +1,10 @@
+.thumbnail-row img {
+  cursor: pointer;
+  border: 2px solid #0000;
+  transition: border .3s;
+}
+
+.thumbnail-row img.active {
+  border: 2px solid #f0965a;
+}
+/*# sourceMappingURL=index.2f29696a.css.map */
